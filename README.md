@@ -4,6 +4,7 @@
 
 <div align="center">
 
+[![smithery badge](https://smithery.ai/badge/@gptForYou/mcp-gusantong-server)](https://smithery.ai/server/@gptForYou/mcp-gusantong-server)
 [![English](https://img.shields.io/badge/English-Click-yellow
 )](README.md)
 [![English](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-%E7%82%B9%E5%87%BB%E6%9F%A5%E7%9C%8B-orange)](README_zh.md)
@@ -33,7 +34,16 @@ Fully supports both **Stdio** and **SSE** transports, offering flexibility for d
 
 https://github.com/user-attachments/assets/1a6d02af-22a3-44a0-ada7-a771a1c4818d
 
+
 # Quick Start
+
+## Installing via Smithery
+
+To install mcp-gusantong-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@gptForYou/mcp-gusantong-server):
+
+```bash
+npx -y @smithery/cli install @gptForYou/mcp-gusantong-server --client claude
+```
 
 ## Prerequisites
 
@@ -161,5 +171,4 @@ Set the `PROVIDER` environment variable to specify your provider:
 ![datacanvas](https://raw.githubusercontent.com/DataCanvasIO/HyperTS/main/docs/static/images/dc_logo_1.png)
 
 This project is open-sourced by [DataCanvas](https://datacanvas.com/)
-
 
