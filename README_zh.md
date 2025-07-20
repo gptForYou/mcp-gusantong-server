@@ -57,18 +57,14 @@ https://github.com/user-attachments/assets/1a6d02af-22a3-44a0-ada7-a771a1c4818d
 ```JSON
 {
   "mcpServers": {
-    "finData": {
+    "mcp-server-gusantong": {
       "command": "uv", 
       "args": [
         "--directory",
-        "/ABSOLUTE/PATH/TO/PARENT/FOLDER/finData-mcp-server/src/findata", // finData MCP Server所在目录
+        "/Users/moshi/PycharmProjects/mcp-gusantong-server/src/mcp_server_gusantong",
         "run",
         "server.py"
-      ],
-      "env": {
-        "DATA_API_TOKEN": "",  // 访问数据供应商的API Token
-        "PROVIDER": "tushare"  // 指定数据供应商
-      }
+      ]
     }
   }
 }

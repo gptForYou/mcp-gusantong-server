@@ -3,7 +3,7 @@ import logging.handlers
 import os
 from datetime import datetime
 
-def setup_logger(log_dir='logs', log_name='findata', max_days=7, level='INFO'):
+def setup_logger(log_dir='logs', log_name='mcp_server_gusantong', max_days=7, level='INFO'):
     """
     设置日志记录器
     

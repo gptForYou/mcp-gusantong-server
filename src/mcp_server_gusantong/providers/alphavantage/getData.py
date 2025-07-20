@@ -1,7 +1,4 @@
-import os
-import pandas as pd
 import requests
-from typing import Optional
 
 
 # 设置你的 Alpha Vantage API 密钥

@@ -1,7 +1,5 @@
 import os
-import pandas as pd
 import requests
-from typing import List, Dict, Optional
 import json
 import time
 import random
